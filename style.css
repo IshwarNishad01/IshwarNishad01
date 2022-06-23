@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List | Project</title>
-    <!-- <link rel="stylesheet" href="style.css">
-     -->
-     <style>
-        *{
+*{
     font-family: 'Times New Roman', Times, serif;
 }
 body{
@@ -16,7 +6,10 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background:#1a1e23;
+    background-image:url(/backgrond.jpeg);
+    background-position: center;
+    background-size: cover;
+
 }
 .todo-list{
     display: flex;
@@ -87,48 +80,3 @@ background-color: #264456;
     transform: scaleX(1);
     transform-origin: left;
 }
-center span{
-    font-size: 24px;
-    color: white;
-    margin-left: 250px;
-    /* text-align: right; */
-}
-
-
-
-
-     </style>
-</head>
-<body>
-    <form action="">
-        <fieldset class="todo-list">
-            <legend class="todo-list_title">
-                For you pinki
-            </legend>
-            <label class="todo-list_label">
-                <input type="checkbox" name=""/>
-                <i class="check"></i>
-                <span>You Are So Beautiful</span>
-            </label>
-            <label  class="todo-list_label">
-                <input type="checkbox"/>
-                <i class="check"></i>
-                <span>You Love Me A Lot</span>
-            </label>
-            <label class="todo-list_label">
-                <input type="checkbox" name=""/>
-                <i class="check"></i>
-                <span>Please Stay With Forever Me</span>
-            </label>
-            <label class="todo-list_label">
-                <input type="checkbox" name=""/>
-                <i class="check"></i>
-                <span>Please Marry With Me</span>
-            </label>
-            <center> <span>Your's Ishu</span></center>
-           
-        </fieldset>
-    </form>
-
-</body>
-</html>
